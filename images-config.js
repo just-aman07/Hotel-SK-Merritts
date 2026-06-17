@@ -28,7 +28,7 @@ const IMAGES_CONFIG = {
   // ==========================================
 
   // Background image for Slide 1 (Comfort & Care in Every Stay)
-  carousel_slide_1: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%201.jpeg",
+  carousel_slide_1: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/main.jpeg",
 
   // Background image for Slide 2 (Modern Comforts)
   carousel_slide_2: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%202.jpeg",
@@ -41,7 +41,7 @@ const IMAGES_CONFIG = {
   // ==========================================
 
   // Portrait/landscape image displayed in the About Us section
-  about_lobby: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%203.jpeg",
+  about_lobby: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Out.jpg",
 
   // ==========================================
   // NEARBY ATTRACTIONS PORTRAIT THUMBNAILS
