@@ -1035,6 +1035,12 @@
 
     const dharamshalaImg = qs('img[alt="Dharamshala"]');
     if (dharamshalaImg && IMAGES_CONFIG.attraction_dharamshala) dharamshalaImg.src = IMAGES_CONFIG.attraction_dharamshala;
+
+    const diningBarImg = qs('#diningBarImg');
+    if (diningBarImg && IMAGES_CONFIG.dining_bar) diningBarImg.src = IMAGES_CONFIG.dining_bar;
+
+    const corporateImg = qs('#corporateImg');
+    if (corporateImg && IMAGES_CONFIG.corporate_package) corporateImg.src = IMAGES_CONFIG.corporate_package;
   }
 
   // --- Initial runs ---
@@ -1043,6 +1049,29 @@
   showRoomDetails('classic-double'); // Default: Comfort Room / Classic Double
   updateReviewsDashboard();
   renderReviewsList();
+
+  // Corporate Enquiry button interaction
+  const corporateBtn = document.getElementById('corporateEnquireBtn');
+  if (corporateBtn) {
+    corporateBtn.addEventListener('click', () => {
+      const messageInput = document.getElementById('c-message');
+      const subjectInput = document.getElementById('c-subject');
+      if (subjectInput) {
+        subjectInput.value = "Corporate Booking Inquiry";
+      }
+      if (messageInput) {
+        messageInput.value = "Hello, we are interested in booking a Corporate Package for our company. Please send us details regarding corporate room rates and banquet/lounge facilities.";
+      }
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      const nameInput = document.getElementById('c-name');
+      if (nameInput) {
+        nameInput.focus();
+      }
+    });
+  }
 
 })();
 

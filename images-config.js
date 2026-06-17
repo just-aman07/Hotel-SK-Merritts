@@ -63,5 +63,15 @@ const IMAGES_CONFIG = {
   attraction_shimla: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Shimla.jpeg",
 
   // Portrait image for Dharamshala
-  attraction_dharamshala: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Dharamshala.jpeg"
+  attraction_dharamshala: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Dharamshala.jpeg",
+
+  // ==========================================
+  // BAR & DINING
+  // ==========================================
+  dining_bar: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/bar.png",
+
+  // ==========================================
+  // CORPORATE PACKAGES
+  // ==========================================
+  corporate_package: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/corporate.png"
 };
