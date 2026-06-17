@@ -9,59 +9,59 @@ const IMAGES_CONFIG = {
   // ==========================================
 
   // Image for LUXURY ROOM — GARDEN VIEW (defaults to photos/room 1.jpeg)
-  room_luxury_garden: "photos/room 1.jpeg",
+  room_luxury_garden: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%201.jpeg",
 
   // Image for HERITAGE ROOM — KING BED (defaults to photos/room 2.jpeg)
-  room_heritage_king: "photos/room 2.jpeg",
+  room_heritage_king: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%202.jpeg",
 
   // Image for Classic Double / Comfort Room (defaults to photos/room 1.jpeg)
-  room_classic_double: "photos/room 1.jpeg",
+  room_classic_double: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%201.jpeg",
 
   // Image for Deluxe Suite (defaults to photos/room 2.jpeg)
-  room_deluxe_suite: "photos/room 2.jpeg",
+  room_deluxe_suite: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%202.jpeg",
 
   // Image for Family Room (defaults to photos/room 4.jpeg)
-  room_family_room: "photos/room 4.jpeg",
+  room_family_room: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%204.jpeg",
 
   // ==========================================
   // HERO CAROUSEL SLIDES
   // ==========================================
 
   // Background image for Slide 1 (Comfort & Care in Every Stay)
-  carousel_slide_1: "photos/room 1.jpeg",
+  carousel_slide_1: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%201.jpeg",
 
   // Background image for Slide 2 (Modern Comforts)
-  carousel_slide_2: "photos/room 2.jpeg",
+  carousel_slide_2: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%202.jpeg",
 
   // Background image for Slide 3 (Events & Gatherings)
-  carousel_slide_3: "photos/room 3.jpeg",
+  carousel_slide_3: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%203.jpeg",
 
   // ==========================================
   // ABOUT SECTION LOBBY IMAGE
   // ==========================================
 
   // Portrait/landscape image displayed in the About Us section
-  about_lobby: "photos/room 3.jpeg",
+  about_lobby: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/room%203.jpeg",
 
   // ==========================================
   // NEARBY ATTRACTIONS PORTRAIT THUMBNAILS
   // ==========================================
 
   // Portrait image for Sukhna Lake
-  attraction_sukhna: "photos/Sukhna.jpeg",
+  attraction_sukhna: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Sukhna.jpeg",
 
   // Portrait image for Pinjore Garden
-  attraction_pinjore: "photos/Pinjore Garden.jpg",
+  attraction_pinjore: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Pinjore%20Garden.jpg",
 
   // Portrait image for Morni Hills
-  attraction_morni: "photos/Morni Hills.jpg",
+  attraction_morni: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Morni%20Hills.jpg",
 
   // Portrait image for Kasauli
-  attraction_kasauli: "photos/Kasauli.jpeg",
+  attraction_kasauli: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Kasauli.jpeg",
 
   // Portrait image for Shimla
-  attraction_shimla: "photos/Shimla.jpeg",
+  attraction_shimla: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Shimla.jpeg",
 
   // Portrait image for Dharamshala
-  attraction_dharamshala: "photos/Dharamshala.jpeg"
+  attraction_dharamshala: "https://just-aman07.github.io/Hotel-SK-Merritts/photos/Dharamshala.jpeg"
 };
