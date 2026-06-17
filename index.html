@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hotel SK Merritts — Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-improvements.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg site-header bg-white">
+    <div class="container">
+      <a class="navbar-brand brand" href="#">Hotel SK Merritts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Carousel (inspired by modern travel brands) -->
+    <section class="hero p-0 mb-4">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-slide" style="background-image:url('photos/room%201.jpeg')">
+              <div class="carousel-caption d-md-block text-start">
+                <h1>Comfort & Care in Every Stay</h1>
+                <p class="lead">Warm hospitality and thoughtful design for every guest.</p>
+                <a class="btn btn-lg btn-primary" href="#rooms">View Rooms</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-slide" style="background-image:url('photos/room%202.jpeg')">
+              <div class="carousel-caption d-md-block text-start">
+                <h1>Modern Comforts</h1>
+                <p class="lead">Spacious rooms, rooftop dining, and excellent location.</p>
+                <a class="btn btn-lg btn-primary" href="#rooms">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-slide" style="background-image:url('photos/room%203.jpeg')">
+              <div class="carousel-caption d-md-block text-start">
+                <h1>Events & Gatherings</h1>
+                <p class="lead">Elegant banquets and rooftop experiences for special occasions.</p>
+                <a class="btn btn-lg btn-primary" href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="rooms" class="section">
+      <div class="container">
+        <h2>Our Rooms</h2>
+        <div id="roomList" class="row g-4 dynamic-rooms"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt bg-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="text-primary fw-bold text-uppercase small tracking-wider">About Our Hotel</span>
+            <h2 class="mt-2 mb-4 fw-bold">Comfort & Convenience in Zirakpur</h2>
+            <p class="text-muted leading-relaxed">
+              At Hotel SK Merritts, we focus on providing a relaxed, comfortable stay with outstanding service and great value. Situated prominently on the Ambala–Chandigarh Highway, our hotel is the perfect gateway for both business travelers and leisure guests visiting Chandigarh, Zirakpur, or transit points nearby.
+            </p>
+            <p class="text-muted mb-4">
+              We offer modern accommodations, attentive customer care, and excellent local accessibility, ensuring your journey is seamless and stress-free.
+            </p>
+            
+            <div class="row g-4 mt-2">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="about-icon-box bg-light-primary text-primary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <div>
+                    <h5 class="fw-bold fs-6 mb-1">24/7 Assistance</h5>
+                    <p class="small text-muted mb-0">Our reception and team are always available to help.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="about-icon-box bg-light-primary text-primary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                  </div>
+                  <div>
+                    <h5 class="fw-bold fs-6 mb-1">Safe & Reliable</h5>
+                    <p class="small text-muted mb-0">Secure environment with private parking facilities.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-img-collage position-relative">
+              <div class="about-img-collage-inner">
+                <div class="about-img-main">
+                  <img src="photos/room 3.jpeg" alt="Lobby Lounge" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="about-badge shadow-lg bg-primary text-white p-3 rounded-3 position-absolute d-flex align-items-center gap-2" style="bottom: 24px; left: -24px;">
+                  <span class="fs-2 fw-bold leading-none">5★</span>
+                  <div class="small leading-tight">
+                    <span class="d-block fw-bold">Rated Comfort</span>
+                    <span class="text-white-50">By regular visitors</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Nearby Attractions -->
+    <section id="attractions" class="section">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2>Nearby Attractions & Day Trips</h2>
+          <div>
+            <button class="btn btn-outline-primary" id="planTripBtn">Plan My Trip</button>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Sukhna.jpeg" alt="Sukhna Lake">
+              <div>
+                <h5 class="mb-1">Sukhna Lake</h5>
+                <p class="mb-0 small text-muted">10 km • ~25 min</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Pinjore%20Garden.jpg" alt="Pinjore Garden">
+              <div>
+                <h5 class="mb-1">Pinjore Garden</h5>
+                <p class="mb-0 small text-muted">28 km • ~45 min</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Morni%20Hills.jpg" alt="Morni Hills">
+              <div>
+                <h5 class="mb-1">Morni Hills</h5>
+                <p class="mb-0 small text-muted">45 km • ~1 hr 15 min</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Kasauli.jpeg" alt="Kasauli">
+              <div>
+                <h5 class="mb-1">Kasauli</h5>
+                <p class="mb-0 small text-muted">77 km • ~2 hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Shimla.jpeg" alt="Shimla">
+              <div>
+                <h5 class="mb-1">Shimla</h5>
+                <p class="mb-0 small text-muted">115 km • ~3 hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="glass-card p-3">
+              <img class="attraction-thumb" src="photos/Dharamshala.jpeg" alt="Dharamshala">
+              <div>
+                <h5 class="mb-1">Dharamshala</h5>
+                <p class="mb-0 small text-muted">250 km • ~6 hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Contact Info Column -->
+          <div class="col-lg-5">
+            <span class="text-primary fw-bold text-uppercase small tracking-wider">Get In Touch</span>
+            <h2 class="mt-2 mb-4 fw-bold">Contact & Booking</h2>
+            <p class="text-muted mb-5">
+              Have questions about room availability, banquet halls, or custom travel packages? Feel free to contact our managers directly or send us a quick message.
+            </p>
+
+            <div class="d-flex flex-column gap-4">
+              <!-- Address Item -->
+              <div class="contact-info-item d-flex gap-3">
+                <div class="contact-info-icon-box bg-white shadow-sm text-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <h6 class="fw-bold text-muted mb-1 text-uppercase small">Location</h6>
+                  <p class="mb-0 text-dark font-medium small">SK Merritss Hotel — Ambala–Chandigarh Highway, Zirakpur, Chandigarh Road, Opposite Paras Downtown Square, Punjab</p>
+                </div>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="contact-info-item d-flex gap-3">
+                <div class="contact-info-icon-box bg-white shadow-sm text-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <h6 class="fw-bold text-muted mb-1 text-uppercase small">Phone Contacts</h6>
+                  <div class="d-flex flex-column gap-1">
+                    <span class="text-dark font-medium small">Reception: <a href="tel:+918288005811" class="text-primary fw-bold text-decoration-none">8288005811</a></span>
+                    <span class="text-dark font-medium small">Manager (1): <a href="tel:+918288005812" class="text-primary fw-bold text-decoration-none">8288005812</a></span>
+                    <span class="text-dark font-medium small">Manager (2): <a href="tel:+918288005813" class="text-primary fw-bold text-decoration-none">8288005813</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="col-lg-7">
+            <div class="card p-4 shadow-sm border-0 bg-white" style="border-radius: 16px;">
+              <h4 class="fw-bold mb-3">Send a Message</h4>
+              
+              <div id="contact-success" class="alert alert-success" style="display: none; border-radius: 8px;" role="alert">
+                Thank you! Your message has been sent successfully. We will respond shortly.
+              </div>
+
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold">Full Name</label>
+                    <input type="text" class="form-control" required placeholder="Aman Gupta">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold">Email Address</label>
+                    <input type="email" class="form-control" required placeholder="aman31.work@gmail.com">
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label small fw-bold">Subject</label>
+                    <input type="text" class="form-control" required placeholder="Inquiry about reservations / banquets">
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label small fw-bold">Message</label>
+                    <textarea class="form-control" required rows="4" placeholder="How can we help you?"></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-primary w-100" style="padding: 12px; border-radius: 8px;">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section bg-light">
+      <div class="container" id="reviews-root">
+        <!-- Injected dynamically by JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Hotel SK Merritts</div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div id="bookingModal" class="modal" aria-hidden="true" tabindex="-1" style="display:none;position:fixed;inset:0;align-items:center;justify-content:center;z-index:9999">
+    <div class="modal-backdrop" style="position:absolute;inset:0;background:rgba(0,0,0,0.45)"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" style="position:relative;background:#fff;border-radius:12px;padding:22px;max-width:520px;width:calc(100% - 40px);box-shadow:0 20px 60px rgba(15,23,42,0.2)">
+      <button id="bookingClose" aria-label="Close booking" style="position:absolute;right:12px;top:12px;background:none;border:none;font-size:18px;cursor:pointer">✕</button>
+      <h3 id="bookingTitle">Book Room</h3>
+      <form id="bookingForm">
+        <div style="margin-top:12px">
+          <label class="small fw-bold">Name</label>
+          <input id="b-name" type="text" required class="glass-input form-control" placeholder="Aman Gupta">
+        </div>
+        <div style="margin-top:12px">
+          <label class="small fw-bold">Email</label>
+          <input id="b-email" type="email" required class="glass-input form-control" placeholder="aman31.work@gmail.com">
+        </div>
+        <div style="margin-top:12px;display:flex;gap:10px">
+          <div style="flex:1">
+            <label class="small fw-bold">Check-in</label>
+            <input id="b-checkin" type="date" required class="form-control">
+          </div>
+          <div style="flex:1">
+            <label class="small fw-bold">Check-out</label>
+            <input id="b-checkout" type="date" required class="form-control">
+          </div>
+        </div>
+        <input id="b-room" type="hidden">
+        <div style="margin-top:18px;display:flex;gap:10px">
+          <button type="submit" class="btn" style="flex:1">Confirm Booking</button>
+          <button type="button" id="bookingCancel" class="btn" style="flex:1;background:#e6eaf2;color:#0f172a">Cancel</button>
+        </div>
+      </form>
+      <div id="bookingSuccess" role="status" aria-live="polite" aria-atomic="true" style="display:none;margin-top:14px;padding:12px;border-radius:8px;background:#eef7f4;color:#065f46">Booking received — saved locally. We will contact you shortly.</div>
+    </div>
+  </div>
+
+  <!-- Itinerary / Plan My Trip Modal -->
+  <div id="itineraryModal" class="modal" aria-hidden="true" tabindex="-1" style="display:none;position:fixed;inset:0;align-items:center;justify-content:center;z-index:10000">
+    <div class="modal-backdrop" style="position:absolute;inset:0;background:rgba(0,0,0,0.45)"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" style="position:relative;background:#fff;border-radius:12px;padding:22px;max-width:640px;width:calc(100% - 40px);box-shadow:0 20px 60px rgba(15,23,42,0.2)">
+      <button id="itineraryClose" aria-label="Close itinerary" style="position:absolute;right:12px;top:12px;background:none;border:none;font-size:18px;cursor:pointer">✕</button>
+      <h3>Customize Your Trip</h3>
+      <p class="small text-muted">Our manager will create a personalised itinerary based on your preferences. You can also call the manager directly.</p>
+      <form id="itineraryForm">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="small fw-bold">Full name</label>
+            <input id="t-name" type="text" required class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="small fw-bold">Email</label>
+            <input id="t-email" type="email" required class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="small fw-bold">Preferred start date</label>
+            <input id="t-start" type="date" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="small fw-bold">Trip length (days)</label>
+            <input id="t-days" type="number" min="1" value="3" class="form-control">
+          </div>
+          <div class="col-12">
+            <label class="small fw-bold">Select places you'd like to visit</label>
+            <div class="d-flex flex-wrap gap-2 mt-2" id="t-places">
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Sukhna Lake">Sukhna Lake</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Pinjore Garden">Pinjore Garden</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Morni Hills">Morni Hills</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Kasauli">Kasauli</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Shimla">Shimla</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary place-btn" data-place="Dharamshala">Dharamshala</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex gap-2 mt-3">
+          <button type="submit" class="btn btn-primary">Request Itinerary</button>
+          <a class="btn btn-outline-dark" href="tel:+918288005811">Call Manager</a>
+        </div>
+      </form>
+      <div id="itinerarySuccess" style="display:none;margin-top:12px;padding:12px;border-radius:8px;background:#eef7f4;color:#065f46">Request sent. Our manager will contact you shortly.</div>
+    </div>
+  </div>
+
+  <!-- ARIA live region for general notifications -->
+  <div id="ariaNotifications" aria-live="polite" aria-atomic="true" class="visually-hidden"></div>
+
+  <!-- Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="images-config.js" defer></script>
+  <script src="hotelskmerrits.js" defer></script>
+</body>
+</html>
